@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         int mass = 77;
         int height = 170;
-        int index = service.calculate(mass,height);
+        int index = service.calculate(mass, height);
         System.out.println("Индекс массы тела равен " + index + " кг/м^2");
     }
 }
